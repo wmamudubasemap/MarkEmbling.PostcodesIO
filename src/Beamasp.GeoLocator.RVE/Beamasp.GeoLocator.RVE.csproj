@@ -27,7 +27,7 @@ Designed for use buy Commercial Web API </Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="fav.ico" />
+    <Content Include="...\...\fav.ico" />
   </ItemGroup>
 
   <ItemGroup>
