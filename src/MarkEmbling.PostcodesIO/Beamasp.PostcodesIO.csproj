@@ -14,9 +14,9 @@ Designed for use buy Commercial Web API </Description>
     <Version>0.1.9</Version>
     <AssemblyVersion>0.1.9</AssemblyVersion>
     <FileVersion>0.1.9</FileVersion>
-    <ApplicationIcon>fbwaks128x128.ico</ApplicationIcon>
+    <ApplicationIcon>fav.ico</ApplicationIcon>
     <PackageId>$(olsdklsdlsl)</PackageId>
-    <PackageIcon>fbwaks-CRT256x256.png</PackageIcon>
+    <PackageIcon>fav.ico</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
@@ -25,11 +25,11 @@ Designed for use buy Commercial Web API </Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="fbwaks128x128.ico" />
+    <Content Include="fav.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\OneDrive - Basemap Ltd\Pictures\Graphics-Copyright-Waksworks\fbwaks-icon-PGN-set\fbwaks-CRT256x256.png">
+    <None Include="...\...\fav.ico">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

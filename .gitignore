@@ -342,3 +342,26 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+/tests/MarkEmbling.PostcodesIO.Tests/Fakes/Beamasp.GeoLocationLib.fakes
+/tests/MarkEmbling.PostcodesIO.Tests/Beamasp.GeoLocation.Lib.Tests.csproj
+/tests/MarkEmbling.PostcodesIO.Tests/Beamasp.GeoLocation.Lib.csproj
+/src/MarkEmbling.PostcodesIO/Beamasp.GeoLocation.Lib.csproj
+/src/Beamasp.GeoLocation.Library/ReverseGeocodeQuery.cs
+/src/Beamasp.GeoLocation.Library/Results/TerminatedPostcodeResult.cs
+/src/Beamasp.GeoLocation.Library/Results/RawResult.cs
+/src/Beamasp.GeoLocation.Library/Results/PostcodeResult.cs
+/src/Beamasp.GeoLocation.Library/Results/OutwardCodeResult.cs
+/src/Beamasp.GeoLocation.Library/Results/NearestResult.cs
+/src/Beamasp.GeoLocation.Library/Results/BulkQueryResult.cs
+/src/Beamasp.GeoLocation.Library/Properties/Resources.resx
+/src/Beamasp.GeoLocation.Library/Properties/Resources.Designer.cs
+/src/Beamasp.GeoLocation.Library/PostcodesIOClient.cs
+/src/Beamasp.GeoLocation.Library/MarkEmbling.PostcodesIO.csproj
+/src/Beamasp.GeoLocation.Library/IPostcodesIOClient.cs
+/src/Beamasp.GeoLocation.Library/Internals/LowercaseWithUnderscoresContractResolver.cs
+/src/Beamasp.GeoLocation.Library/Internals/JsonDotNetSerializer.cs
+/src/Beamasp.GeoLocation.Library/fav.ico
+/src/Beamasp.GeoLocation.Library/Exceptions/PostcodesIOEmptyResponseException.cs
+/src/Beamasp.GeoLocation.Library/Exceptions/PostcodesIOApiException.cs
+/src/Beamasp.GeoLocation.Library/Beamasp.GeoLocation.Lib.csproj
+/Beamasp.GeoLocation.Lib.sln
