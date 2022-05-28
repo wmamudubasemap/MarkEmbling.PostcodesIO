@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
+    <Authors>Wakeelu Mamudu</Authors>
+    <Company>Beamasp</Company>
+    <Description>Dynamic Link Library hybrid consumer of GeoLocation Postcodes.io service. 
+Designed for use buy Commercial Web API </Description>
+    <Copyright>Copyright 2022 © Wakeelu Mamudu  for Beamasp</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://localhost:7573/webapi/Beamasp.PostcodesIO</PackageProjectUrl>
+    <PackageIconUrl>https://static.markembling.info/nuget/icons/Beamasp.PostcodesIO.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.9</Version>
+    <AssemblyVersion>0.1.9</AssemblyVersion>
+    <FileVersion>0.1.9</FileVersion>
+    <ApplicationIcon>fav.ico</ApplicationIcon>
+    <PackageId>$(olsdklsdlsl)</PackageId>
+    <PackageIcon>fav.PNG</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <PackageReleaseNotes>EXPORTED TEMPLATE ROCKS
+</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="fav.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="...\...\fav.PNG">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="RestSharp" Version="106.12.0" />
+  </ItemGroup>
+
+</Project>
