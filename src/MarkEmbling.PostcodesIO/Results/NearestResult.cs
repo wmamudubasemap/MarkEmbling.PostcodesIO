@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MarkEmbling.PostcodesIO.Results
+namespace Beamasp.PostcodesIO.Results
 {
     [Serializable]
     public class NearestResult : PostcodeResult

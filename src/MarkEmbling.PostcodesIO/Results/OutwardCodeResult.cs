@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MarkEmbling.PostcodesIO.Results
+namespace Beamasp.PostcodesIO.Results
 {
     [Serializable]
     public class OutwardCodeResult {

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MarkEmbling.PostcodesIO\MarkEmbling.PostcodesIO.csproj" />
+    <ProjectReference Include="..\..\src\MarkEmbling.PostcodesIO\Beamasp.PostcodesIO.csproj" />
   </ItemGroup>
 
 </Project>

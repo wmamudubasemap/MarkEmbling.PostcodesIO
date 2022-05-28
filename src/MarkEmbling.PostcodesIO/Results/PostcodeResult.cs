@@ -1,7 +1,7 @@
 ﻿using RestSharp.Deserializers;
 using System;
 
-namespace MarkEmbling.PostcodesIO.Results
+namespace Beamasp.PostcodesIO.Results
 {
     [Serializable]
     public class PostcodeResult {

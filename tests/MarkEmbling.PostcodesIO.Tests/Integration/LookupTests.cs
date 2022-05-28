@@ -1,9 +1,9 @@
-﻿using MarkEmbling.PostcodesIO.Results;
+﻿using Beamasp.PostcodesIO.Results;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MarkEmbling.PostcodesIO.Tests.Integration
+namespace Beamasp.PostcodesIO.Tests.Integration
 {
     [TestFixture, Explicit("Hits live Postcodes.io API")]
     public class LookupTests {

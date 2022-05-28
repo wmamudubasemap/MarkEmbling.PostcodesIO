@@ -1,8 +1,8 @@
-﻿using MarkEmbling.PostcodesIO.Results;
+﻿using Beamasp.PostcodesIO.Results;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MarkEmbling.PostcodesIO
+namespace Beamasp.PostcodesIO
 {
     public interface IPostcodesIOClient {
         // TODO: documentation

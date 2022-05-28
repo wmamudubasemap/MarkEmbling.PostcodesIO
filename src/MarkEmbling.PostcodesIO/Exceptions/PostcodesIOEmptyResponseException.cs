@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace MarkEmbling.PostcodesIO.Exceptions
+namespace Beamasp.PostcodesIO.Exceptions
 {
     public class PostcodesIOEmptyResponseException : Exception {
         public PostcodesIOEmptyResponseException(HttpStatusCode statusCode)

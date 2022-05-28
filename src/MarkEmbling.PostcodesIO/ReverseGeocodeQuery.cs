@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.PostcodesIO
+﻿namespace Beamasp.PostcodesIO
 {
     public class ReverseGeocodeQuery {
         public double Latitude { get; set; }

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MarkEmbling.PostcodesIO.Tests.Integration
+namespace Beamasp.PostcodesIO.Tests.Integration
 {
     [TestFixture, Explicit("Hits live Postcodes.io API")]
     public class AutocompleteTests {

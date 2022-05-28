@@ -1,7 +1,7 @@
 using Newtonsoft.Json.Serialization;
 using System.Text.RegularExpressions;
 
-namespace MarkEmbling.PostcodesIO.Internals
+namespace Beamasp.PostcodesIO.Internals
 {
     public class LowercaseWithUnderscoresContractResolver : DefaultContractResolver {
         protected override string ResolvePropertyName(string propertyName) {

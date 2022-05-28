@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MarkEmbling.PostcodesIO.Results
+namespace Beamasp.PostcodesIO.Results
 {
     /// <summary>
     /// A single query/result pair from a bulk API call

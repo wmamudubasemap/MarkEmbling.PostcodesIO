@@ -1,9 +1,9 @@
-﻿using MarkEmbling.PostcodesIO.Results;
+﻿using Beamasp.PostcodesIO.Results;
 using NUnit.Framework;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace MarkEmbling.PostcodesIO.Tests.Unit
+namespace Beamasp.PostcodesIO.Tests.Unit
 {
     [TestFixture]
     public class SerializabilityTests

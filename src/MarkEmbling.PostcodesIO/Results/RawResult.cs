@@ -1,4 +1,4 @@
-﻿namespace MarkEmbling.PostcodesIO.Results
+﻿namespace Beamasp.PostcodesIO.Results
 {
     /// <summary>
     /// Raw result object returned from the Postcodes.io API

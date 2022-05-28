@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace MarkEmbling.PostcodesIO.Tests.Unit
+namespace Beamasp.PostcodesIO.Tests.Unit
 {
     [TestFixture]
     public class ReverseGeocodeQueryTests {
