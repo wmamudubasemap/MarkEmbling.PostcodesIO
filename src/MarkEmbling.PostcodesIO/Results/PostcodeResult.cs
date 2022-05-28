@@ -1,10 +1,11 @@
 ﻿using RestSharp.Deserializers;
 using System;
 
-namespace Beamasp.PostcodesIO.Results
+namespace MarkEmbling.PostcodesIO.Results
 {
     [Serializable]
-    public class PostcodeResult {
+    public class PostcodeResult
+    {
         public string Postcode { get; set; }
         public int Quality { get; set; }
         public int Eastings { get; set; }
@@ -34,7 +35,8 @@ namespace Beamasp.PostcodesIO.Results
     }
 
     [Serializable]
-    public class Codes {
+    public class Codes
+    {
         public string AdminDistrict { get; set; }
         public string AdminCounty { get; set; }
         public string AdminWard { get; set; }

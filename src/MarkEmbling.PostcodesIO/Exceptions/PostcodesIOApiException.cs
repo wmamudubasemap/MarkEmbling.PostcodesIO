@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Beamasp.PostcodesIO.Exceptions
+namespace MarkEmbling.PostcodesIO.Exceptions
 {
     public class PostcodesIOApiException : Exception
     {

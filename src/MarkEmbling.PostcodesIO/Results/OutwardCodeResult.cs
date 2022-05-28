@@ -2,10 +2,11 @@
 using System;
 using System.Collections.Generic;
 
-namespace Beamasp.PostcodesIO.Results
+namespace MarkEmbling.PostcodesIO.Results
 {
     [Serializable]
-    public class OutwardCodeResult {
+    public class OutwardCodeResult
+    {
         public string Outcode { get; set; }
         public decimal Longitude { get; set; }
         public decimal Latitude { get; set; }

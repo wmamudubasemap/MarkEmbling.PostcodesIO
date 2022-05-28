@@ -1,10 +1,11 @@
-﻿using Beamasp.PostcodesIO.Results;
+﻿using MarkEmbling.PostcodesIO.Results;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Beamasp.PostcodesIO
+namespace MarkEmbling.PostcodesIO
 {
-    public interface IPostcodesIOClient {
+    public interface IPostcodesIOClient
+    {
         // TODO: documentation
 
         PostcodeResult Lookup(string postcode);

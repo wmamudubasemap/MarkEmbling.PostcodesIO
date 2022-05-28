@@ -1,16 +1,20 @@
 ﻿using Newtonsoft.Json;
 using RestSharp.Serializers;
 
-namespace Beamasp.PostcodesIO.Internals
+namespace MarkEmbling.PostcodesIO.Internals
 {
-    public class JsonDotNetSerializer : ISerializer {
-        public JsonDotNetSerializer() {
+    public class JsonDotNetSerializer : ISerializer
+    {
+        public JsonDotNetSerializer()
+        {
             ContentType = "application/json";
         }
 
-        public string Serialize(object obj) {
+        public string Serialize(object obj)
+        {
             return JsonConvert.SerializeObject(obj,
-                new JsonSerializerSettings {
+                new JsonSerializerSettings
+                {
                     NullValueHandling = NullValueHandling.Ignore,
                     MissingMemberHandling = MissingMemberHandling.Ignore,
                     DefaultValueHandling = DefaultValueHandling.Include,

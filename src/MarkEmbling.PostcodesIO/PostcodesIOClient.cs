@@ -1,13 +1,39 @@
-﻿using Beamasp.PostcodesIO.Exceptions;
+﻿
+/* Unmerged change from project 'MarkEmbling.PostcodesIO (net452)'
+Before:
+using Beamasp.PostcodesIO.Exceptions;
 using Beamasp.PostcodesIO.Internals;
 using Beamasp.PostcodesIO.Results;
+After:
+using Beamasp.PostcodesIO;
+using Beamasp.PostcodesIO.Results;
+*/
+
+/* Unmerged change from project 'MarkEmbling.PostcodesIO (net452)'
+Before:
+using Beamasp.PostcodesIO;
+using Beamasp.PostcodesIO.Exceptions;
+using MarkEmbling.PostcodesIO.Internals;
+using MarkEmbling.PostcodesIO.Results;
+using RestSharp;
+After:
+using MarkEmbling.PostcodesIO.Internals;
+using RestSharp;
+*/
+
+/* Unmerged change from project 'MarkEmbling.PostcodesIO (net452)'
+Before:
+using MarkEmbling.Postcode;
+After:
+using MarkEmbling.PostcodesIO.Internals;
+*/
 using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Beamasp.PostcodesIO
+namespace MarkEmbling.PostcodesIO
 {
     public class PostcodesIOClient : IPostcodesIOClient
     {
@@ -34,19 +60,9 @@ namespace Beamasp.PostcodesIO
 
             IRestResponse<RawResult<T>> response = client.Execute<RawResult<T>>(request);
 
-            if (response.ErrorException != null)
-            {
-                throw new PostcodesIOApiException(response.ErrorException);
-
-                /* Unmerged change from project 'Beamasp.PostcodesIO (net452)'
-                Before:
-                            if (response.Data == null) 
-                After:
-                            if (response.Data == null)
-                */
-            }
-
-            return response.Data == null ? throw new PostcodesIOEmptyResponseException(response.StatusCode) : response.Data.Result;
+            return response.ErrorException != null
+                ? throw new PostcodesIOApiException(response.ErrorException)
+                : response.Data == null ? throw new PostcodesIOEmptyResponseException(response.StatusCode) : response.Data.Result;
         }
 
         private async Task<T> ExecuteAsync<T>(RestRequest request) where T : new()
@@ -63,12 +79,9 @@ namespace Beamasp.PostcodesIO
 
             IRestResponse<RawResult<T>> response = await client.ExecuteTaskAsync<RawResult<T>>(request).ConfigureAwait(false);
 
-            if (response.ErrorException != null)
-            {
-                throw new PostcodesIOApiException(response.ErrorException);
-            }
-
-            return response.Data == null ? throw new PostcodesIOEmptyResponseException(response.StatusCode) : response.Data.Result;
+            return response.ErrorException != null
+                ? throw new PostcodesIOApiException(response.ErrorException)
+                : response.Data == null ? throw new PostcodesIOEmptyResponseException(response.StatusCode) : response.Data.Result;
         }
 
         public PostcodeResult Lookup(string postcode)

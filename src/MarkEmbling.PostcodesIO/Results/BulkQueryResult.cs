@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Beamasp.PostcodesIO.Results
+namespace MarkEmbling.PostcodesIO.Results
 {
     /// <summary>
     /// A single query/result pair from a bulk API call
@@ -8,7 +8,8 @@ namespace Beamasp.PostcodesIO.Results
     /// <typeparam name="TQuery">Type of the query</typeparam>
     /// <typeparam name="TResult">Result of the query</typeparam>
     [Serializable]
-    public class BulkQueryResult<TQuery, TResult> where TResult : class {
+    public class BulkQueryResult<TQuery, TResult> where TResult : class
+    {
         public TQuery Query { get; set; }
         public TResult Result { get; set; }
     }
